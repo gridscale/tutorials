@@ -1,0 +1,31 @@
+@import 'base_theme';
+@import 'theme';
+body {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background: $primaryColor;
+    height: 80px;
+    color: invert($primaryColor);
+    position: relative;
+    #companyName {
+        font-size: 3em;
+        font-weight: bold;
+        top: 50%;
+        height: 3em;
+        padding: 0 1rem;
+        margin-top: -1.5rem;
+        position: absolute;
+    }
+}
+#viewport {
+    padding: 1rem;
+    h1 {
+        color: $primaryColor;
+    }
+
+    p {
+        color: $secondaryColor;
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "api_endpoint": "https://api.mycompany.org",
+    "logger": "https://logger.mycompany.org/",
+    "expertMode": false,
+    "companyName": "ACME"
+}
